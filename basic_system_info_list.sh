@@ -2,9 +2,9 @@
 
 #this script provides basic info about system & services
 
-echo 'this script will provide you some basic information about the system you are working on & services: \n'
+echo 'this script will provide you some basic information about the system you are working on & services: '
 
-echo "you are working under $USER user & your default directory in shell is $HOME "
+echo "you are working under $USER user & your default directory in shell is: $HOME "
 
 echo '------------------------------'
 echo 'your kernel & OS version are: '
