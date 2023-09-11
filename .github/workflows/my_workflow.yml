@@ -10,7 +10,7 @@ name: GitHubActions-Basics
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:  
   my-test:
