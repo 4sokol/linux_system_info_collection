@@ -24,3 +24,11 @@ jobs:
         run: |
           echo "Hello Message 1"
           echo "Hello Message 2"
+
+  my-deploy:
+    runs-on: ubuntu-latest
+    needs: [my-test]          #need to successfully run 'my-test' job forst to run this current
+
+    steps:
+      - name: Print current date & time
+        run: timedatectl
