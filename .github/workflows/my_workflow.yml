@@ -18,7 +18,7 @@ jobs:
 
     steps:
       - name: Print Hello Message in testing
-        run: print "Hello World 1"
+        run: echo "Hello World 1"
 
       - name: Run few commands
         run: |
