@@ -1,0 +1,26 @@
+# --------------------------------------
+# GitHub Action Workflow creation test
+#
+# Version 1.0
+#
+# --------------------------------------
+
+name: GitHubActions-Basics
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:  
+  my-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print Hello Message in testing
+        run: print "Hello World #1"
+
+      - name: Run few commands
+        run: |
+          echo "Hello Message 1"
+          echo "Hello Message 2"
